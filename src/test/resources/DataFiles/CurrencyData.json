@@ -1,0 +1,19 @@
+{
+  "dataset": [
+    {
+      "currencyName": "Euro",
+      "currencySymbol": "€",
+      "elementName": "EUR"
+    },
+    {
+      "currencyName": "Dollar",
+      "currencySymbol": "$",
+      "elementName": "USD"
+    },
+    {
+      "currencyName": "Pound Sterling",
+      "currencySymbol": "£",
+      "elementName": "GBP"
+    }
+  ]
+}

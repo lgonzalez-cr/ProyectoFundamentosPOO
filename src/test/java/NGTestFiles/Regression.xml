@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name="Tests.TestListener"/>
+    </listeners>
+    <test name="Register Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.RegisterAccountTest"></class>
+        </classes>
+    </test>
+
+    <test name="AddProductToCart Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.ShoppingCartTest"></class>
+        </classes>
+    </test>
+
+    <test name="Currency Test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.ProductDetailTest"></class>
+        </classes>
+    </test>
+</suite>

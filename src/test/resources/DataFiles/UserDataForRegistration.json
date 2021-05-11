@@ -1,0 +1,28 @@
+{
+  "dataset": [
+    {
+      "firstName": "Ronald",
+      "lastName": "Flores",
+      "email": "rflores@gmail.com",
+      "telephone": "25636558",
+      "password":  "25636558",
+      "confirmPassword": "25636558"
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "email": "jperez@gmail.com",
+      "telephone": "23659874",
+      "password": "23659874",
+      "confirmPassword": "23659874"
+    },
+    {
+      "firstName": "Rosita",
+      "lastName": "Smith",
+      "email": "rsmith@gmail.com",
+      "telephone": "85963214",
+      "password": "85963214",
+      "confirmPassword": "85963214"
+    }
+  ]
+}
